@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daksha - Find trusted local services instantly. Electricians, Plumbers, Cleaners, and more.">
+    <title>Daksha – Instant Local Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+   <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+        <a href="#" class="logo">Daksha<span>.</span></a>
+        
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+            <li><a href="#partner" class="nav-link">Partner</a></li>
+            <li>
+<a href="#" class="btn-primary nav-btn" onclick="openAppPopup()">Download App</a>
+</li>
+        </ul>
+
+        <!-- THEME TOGGLE BUTTON -->
+        <button id="themeToggle" class="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+<section id="home" class="hero">
+
+    <div class="hero-bg-animation"></div>
+
+   
+    <div class="container hero-content">
+        
+        <div class="hero-text fade-in">
+            <h1>Find Trusted Local Services <span class="gradient-text">Instantly</span></h1>
+            <p>From AC repair to home cleaning, Sevigo connects you with verified professionals in your neighborhood. Book in seconds, pay securely.</p>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" onclick="openBooking()">Book Service</a>
+                
+
+                <a href="#partner" class="btn btn-secondary">Become a Partner</a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image fade-in">
+            <div class="hero-illustration">
+                <i class="fa-solid fa-house-chimney-medical"></i>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Everything you need for your home, all in one place.</p>
+            </div>
+            
+            <div class="services-grid">
+               
+                <!-- Card 1 -->
+                <div class="service-card fade-in">
+                    <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Electrician</h3>
+                    <p>Expert wiring, repairs, and installations.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card fade-in">
+                    <div class="icon-box"><i class="fa-solid fa-faucet"></i></div>
+                    <h3>Plumber</h3>
+                    <p>Leak fixes, pipe installation, and maintenance.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card fade-in">
+                    <div class="icon-box"><i class="fa-solid fa-snowflake"></i></div>
+                    <h3>AC Repair</h3>
+                    <p>Installation, cleaning, and repair services.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card fade-in">
+                    <div class="icon-box"><i class="fa-solid fa-broom"></i></div>
+                    <h3>Cleaning</h3>
+                    <p>Deep cleaning for homes and offices.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card fade-in">
+                    <div class="icon-box"><i class="fa-solid fa-paint-roller"></i></div>
+                    <h3>Home Painting</h3>
+                    <p>Interior and exterior painting services.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card fade-in">
+    <div class="icon-box"><i class="fa-solid fa-hammer"></i></div>
+    <h3>Carpenter</h3>
+    <p>Furniture repair, wooden fittings, and custom carpentry work.</p>
+</div>
+
+<div class="service-card fade-in">
+    <div class="icon-box"><i class="fa-solid fa-user"></i></div>
+    <h3>Maid Service</h3>
+    <p>Professional house help for daily cleaning and home assistance.</p>
+</div>
+
+<div class="service-card fade-in">
+    <div class="icon-box"><i class="fa-solid fa-wrench"></i></div>
+    <h3>Home Appliance Repair</h3>
+    <p>Repair services for washing machines, refrigerators, and more.</p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How Daksha Works</h2>
+                <p>Get your job done in 4 simple steps.</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-item fade-in">
+                    <div class="step-number">1</div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h3>Choose Service</h3>
+                    <p>Select the service you need from our list.</p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step-item fade-in">
+                    <div class="step-number">2</div>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <h3>Book Instantly</h3>
+                    <p>Choose nearby location and get solution under 30min </p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step-item fade-in">
+                    <div class="step-number">3</div>
+                    <i class="fa-solid fa-user-shield"></i>
+                    <h3>Pro Arrives</h3>
+                    <p>Verified professionals come to your door.</p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step-item fade-in">
+                    <div class="step-number">4</div>
+                    <i class="fa-solid fa-check-circle"></i>
+                    <h3>Get Job Done</h3>
+                    <p>Pay securely and enjoy the result.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <i class="fa-solid fa-id-card"></i>
+                    <h4>Verified Pros</h4>
+                    <p>Background checked and skilled professionals.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fa-solid fa-tags"></i>
+                    <h4>Affordable</h4>
+                    <p>Transparent pricing with no hidden charges.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h4>Fast Service</h4>
+                    <p>Bookings confirmed within minutes.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fa-solid fa-headset"></i>
+                    <h4>24/7 Support</h4>
+                    <p>We are here to help you anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download -->
+    <section class="app-download">
+        <div class="container app-container">
+            <div class="app-text fade-in">
+                <h2>Daksha in your pocket</h2>
+                <p>Download the app for the best experience. Track your service provider in real-time.</p>
+                <div class="app-buttons">
+                    <a href="#" class="store-btn">
+                        <i class="fa-brands fa-google-play"></i>
+                        <div>
+                            <small>GET IT ON</small>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn">
+                        <i class="fa-brands fa-apple"></i>
+                        <div>
+                            <small>Download on the</small>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="app-image fade-in">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+<div class="stars">★★★★★</div>
+<p>"Daksha helped me find a reliable electrician within minutes. The service was fast and professional."</p>
+<h5>- Rahul Verma</h5>
+</div>
+
+<div class="testimonial-card fade-in">
+<div class="stars">★★★★★</div>
+<p>"Booked a home cleaning service and the team did an amazing job. My house looks brand new!"</p>
+<h5>- Priya Sharma</h5>
+</div>
+
+<div class="testimonial-card fade-in">
+<div class="stars">★★★★☆</div>
+<p>"Very convenient platform. I booked AC servicing and the technician arrived on time."</p>
+<h5>- Arjun Patel</h5>
+</div>
+
+<div class="testimonial-card fade-in">
+<div class="stars">★★★★★</div>
+<p>"Professional and polite staff. The painting work was completed faster than expected."</p>
+<h5>- Neha Gupta</h5>
+</div>
+
+<div class="testimonial-card fade-in">
+<div class="stars">★★★★☆</div>
+<p>"The plumber fixed my leakage issue quickly. Pricing was transparent and fair."</p>
+<h5>- Sandeep Mishra</h5>
+</div>
+
+<div class="testimonial-card fade-in">
+<div class="stars">★★★★★</div>
+<p>"Great experience! Booking a salon service at home was super easy."</p>
+<h5>- Kavita Singh</h5>
+</div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Section -->
+    <section id="partner" class="partner-section">
+        <div class="container">
+            <div class="partner-content fade-in">
+                <h2>Are you a Service Professional?</h2>
+                <p>Join Daksha and earn money on your own schedule. We provide you with customers, tools, and support.</p>
+                <a href="#" class="btn btn-primary" onclick="openLogin()">Join Daksha</a>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">Daksha<span>.</span></a>
+                <p>Connecting you with trusted local services. Quality, speed, and reliability at your doorstep.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/daksha_services_" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#" onclick="openAbout()">About Us</a></li>
+                    <li><a href="#" onclick="openCareers()">Careers</a></li>
+                    
+                    <li><a href="#" onclick="openBlog()">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#" onclick="openHelp()">Help Center</a></li>
+                    <li><a href="#" onclick="openTerms()">Terms of Service</a></li>
+                    <li><a href="#" onclick="openPrivacy()">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> daksha@gmail.com</li>
+                    <li>
+<i class="fa-solid fa-phone"></i> 
+<a href="https://wa.me/9179369730?text=Hello%20Daksha%20I%20want%20to%20book%20a%20service" target="_blank">
+Contact on WhatsApp
+</a>
+</li>
+
+
+                    <li><i class="fa-solid fa-location-dot"></i> Bilaspur (CG)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Daksha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+    <div id="blogPopup" class="popup">
+<div class="popup-content">
+
+<span class="close" onclick="closeBlog()">&times;</span>
+
+<h2>Daksha Blog ✍️</h2>
+
+<div class="blog-cards">
+
+<div class="blog-card">
+<h4>5 Home Maintenance Tips</h4>
+<p>Simple tips to keep your home safe and avoid expensive repairs.</p>
+</div>
+
+<div class="blog-card">
+<h4>How to Choose a Reliable Electrician</h4>
+<p>Important things to check before hiring an electrician.</p>
+</div>
+
+<div class="blog-card">
+<h4>Why Professional Cleaning Matters</h4>
+<p>Discover why professional cleaning improves health and comfort.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+    <div id="careersPopup" class="popup">
+<div class="popup-content">
+
+<span class="close" onclick="closeCareers()">&times;</span>
+
+<h2>Careers at Daksha 🚀</h2>
+
+<p>
+Join our mission to make home services simple and accessible across India.
+At Daksha we believe in innovation, growth, and empowering local workers.
+</p>
+
+<div class="career-jobs">
+
+<div class="job-card">
+<h4>Frontend Developer</h4>
+<p>Build beautiful and fast user interfaces for our platform.</p>
+</div>
+
+<div class="job-card">
+<h4>Flutter App Developer</h4>
+<p>Help us build our mobile app and improve customer experience.</p>
+</div>
+
+<div class="job-card">
+<h4>Marketing Executive</h4>
+<p>Grow Daksha by reaching more customers and service professionals.</p>
+</div>
+
+</div>
+
+<p class="career-mail">
+Send your resume to <b>careers@daksha.com</b>
+</p>
+
+</div>
+</div>
+    <div id="privacyPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePrivacy()">&times;</span>
+
+        <h2>Privacy Policy</h2>
+
+        <p>
+        At Daksha, we respect your privacy and are committed to protecting your personal information.
+        </p>
+
+        <h4>1. Information We Collect</h4>
+        <p>
+        We may collect your name, phone number, email address, and location when you use our services.
+        </p>
+
+        <h4>2. How We Use Your Information</h4>
+        <p>
+        Your information is used to connect you with service professionals and improve our platform.
+        </p>
+
+        <h4>3. Data Protection</h4>
+        <p>
+        We use secure systems to protect your personal information and prevent unauthorized access.
+        </p>
+
+        <h4>4. Third-Party Services</h4>
+        <p>
+        We may share limited information with trusted service providers only to complete your booking.
+        </p>
+
+        <h4>5. Contact</h4>
+        <p>
+        If you have questions about our privacy policy, contact us at daksha@gmail.com.
+        </p>
+
+    </div>
+</div>
+    <div id="termsPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeTerms()">&times;</span>
+
+        <h2>Terms & Conditions</h2>
+
+        <p>
+        By using Daksha, you agree to our terms and conditions. Daksha is a platform
+        that connects customers with local service professionals.
+        </p>
+
+        <h4>1. Service Responsibility</h4>
+        <p>
+        Daksha connects users with independent service professionals.
+        We do not directly provide the services.
+        </p>
+
+        <h4>2. Payments</h4>
+        <p>
+        Payments must be made after the service is completed unless stated otherwise.
+        </p>
+
+        <h4>3. Cancellation</h4>
+        <p>
+        Users can cancel bookings before the service professional arrives.
+        </p>
+
+        <h4>4. User Conduct</h4>
+        <p>
+        Users must provide accurate information and treat professionals respectfully.
+        </p>
+
+        <h4>5. Liability</h4>
+        <p>
+        Daksha is not responsible for damages caused by misuse of the platform.
+        </p>
+
+    </div>
+</div>
+    <div id="helpPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeHelp()">&times;</span>
+
+        <h2>Help Center</h2>
+        <p>If you need help booking a service or have any issue, contact our support team.</p>
+
+        <a href="https://wa.me/919179369730?text=Hello%20Daksha%20I%20need%20help%20with%20a%20service"
+        target="_blank" class="btn btn-primary">
+        Chat on WhatsApp
+        </a>
+
+    </div>
+</div>
+    <div id="aboutPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closeAbout()">&times;</span>
+        
+        <h2>About Daksha</h2>
+        <p>
+        Daksha is a local services platform that connects people with trusted
+        professionals like electricians, plumbers, cleaners, and more.
+        Our goal is to make home services fast, affordable, and reliable.
+        </p>
+
+        <p>
+        We empower local workers by giving them more job opportunities
+        while helping customers find quality services instantly.
+        </p>
+    </div>
+</div>
+<div id="loginPopup" class="popup">
+<div class="popup-content">
+
+<span class="close" onclick="closeLogin()">&times;</span>
+
+<h2>Partner Login</h2>
+<p>Login to become a service partner on Daksha.</p>
+
+<form class="login-form">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="text" placeholder="Service Type (Electrician, Plumber...)" required>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+</div>
+</div>
+<div id="appPopup" class="app-popup-overlay">
+
+<div class="app-popup-box">
+
+<span class="close-popup" onclick="closeAppPopup()">&times;</span>
+
+<div class="rocket">
+🚀
+</div>
+
+<h2>Coming Soon</h2>
+
+<p>
+We are building an amazing mobile experience.
+Get notified when our app launches.
+</p>
+
+<div class="notify-box">
+<input type="email" placeholder="Enter your email">
+<button>Notify Me</button>
+</div>
+
+<p class="launch-text">Launching Soon on Android & iOS</p>
+
+</div>
+</div>
+<div id="bookingPopup" class="popup">
+<div class="popup-content">
+
+<span class="close" onclick="closeBooking()">&times;</span>
+
+<h2>Book a Service</h2>
+
+<form class="booking-form">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Service</option>
+<option>Electrician</option>
+<option>Plumber</option>
+<option>AC Repair</option>
+<option>Cleaning</option>
+<option>Home Painting</option>
+<option>Salon at Home</option>
+<option>Carpenter</option>
+<option>Maid</option>
+</select>
+
+<textarea placeholder="Your Address"></textarea>
+
+<button type="submit" class="btn btn-primary">
+Confirm Booking
+</button>
+
+</form>
+
+</div>
+</div>
+
+</body>
+</html>
